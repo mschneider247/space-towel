@@ -1,24 +1,32 @@
 import React from 'react';
 import './Header.css'
 import gitHub from '../../images/github.svg'
+import linkedIn from '../../images/linkedin.png'
+import bioPic from '../../images/MSchneiderPic.jpg'
 
 const Header = () => {
 
   return (
     <section className="bio_section">
       <div className="bio_div">
-        <h1>Michael Schneider</h1>
-        <h3>Front End Developer</h3>
-        <img alt='Bio Pic'/>
-        <p>mschneider247@gmail.com</p>
-        <a href="https://github.com/mschneider247">
-          <img src={gitHub} alt="GitHub"/>
-        </a>
-        <a href="https://www.linkedin.com/in/mschneider247/">
-          <img alt="LinkedIn"/>
-        </a>
-        <h3>About Me</h3>
-        <p>Ready to dive into new technologies, I enjoy code challenges and am excellent at time blocking and changing strategies when stuck. I bring optimism and a big picture view to groups, but am also confident working alone. Comfortable entering situations with little or no guidance, finding solutions and implementing them.</p>
+        <h1 id="name">Michael Schneider</h1>
+        <h1 id="title">Front End Developer</h1>
+        <div className="bio_div-content">
+          <div classNAme="bio_div-pic">
+            <img className="bio_pic" src={bioPic} alt='Bio Pic'/>
+          </div>
+          <div className="bio_div-social">
+            <p>mschneider247@gmail.com</p>
+            <a href="https://github.com/mschneider247">
+              <img className="social_icon" src={gitHub} alt="GitHub"/>
+            </a>
+            <a href="https://www.linkedin.com/in/mschneider247/">
+              <img className="social_icon" src={linkedIn} alt="LinkedIn"/>
+            </a>
+          </div>
+        </div>
+        <h3>About Me:</h3>
+        <p id="about_me">Ready to dive into new technologies, I enjoy code challenges and am excellent at time blocking and changing strategies when stuck. I bring optimism and a big picture view to groups, but am also confident working alone. Comfortable entering situations with little or no guidance, finding solutions and implementing them.</p>
       </div>
       <div className="bio_div">
         <ul> Looking For

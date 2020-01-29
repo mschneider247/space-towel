@@ -1,0 +1,47 @@
+.bio_section {
+  display: flex;
+}
+
+.bio_div {
+  background: grey;
+  width: 50%;
+  margin: 1%;
+  border-radius: 20px;
+  padding: 2%;
+}
+
+.bio_pic {
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.social_icon {
+  width: 40px;
+  margin: 1%;
+}
+
+.bio_div-content {
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.bio_div-social {
+  margin: auto;
+}
+
+#name {
+  font-size: 3em;
+  margin-top: 10px;
+}
+
+#title {
+  font-size: 2em;
+  margin-bottom: 8%;
+}
+
+#about_me {
+  width: 80%;
+  margin: auto;
+}

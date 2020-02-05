@@ -15,17 +15,26 @@ class App extends Component {
 
   render () {
     return (
-      <main>
-        <section>
-          <Header />
+      <section>
+        <section id="background">
+          <div className="lines">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+          </div>
         </section>
-        <section>
-          <Nav />
-        </section>
-        <section>
-          <Content />
-        </section>
-      </main>
+        <main>
+          <section>
+            <Header />
+          </section>
+          <section>
+            <Nav />
+          </section>
+          <section>
+            <Content />
+          </section>
+        </main>
+      </section>
     );
   }
 }

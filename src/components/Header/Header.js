@@ -28,20 +28,20 @@ const Header = () => {
         <h3>About Me:</h3>
         <p id="about_me">Ready to dive into new technologies, I enjoy code challenges and am excellent at time blocking and changing strategies when stuck. I bring optimism and a big picture view to groups, but am also confident working alone. Comfortable entering situations with little or no guidance, finding solutions and implementing them.</p>
       </div>
-      <div className="bio_div">
-        <ul> Looking For
+      <div className="bio_lists">
+        <ul className="list"> Looking For
           <li>1</li>
           <li>2</li>
           <li>3</li>
           <li>4</li>
         </ul>
-        <ul> Best At
+        <ul className="list"> Best At
           <li>1</li>
           <li>2</li>
           <li>3</li>
           <li>4</li>
         </ul>
-        <ul> Preferred locations
+        <ul className="list"> Preferred locations
           <li>1</li>
           <li>2</li>
           <li>3</li>

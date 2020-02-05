@@ -1,17 +1,33 @@
 .bio_section {
   display: flex;
+  flex-direction: column;
 }
 
 .bio_div {
-  background: grey;
-  width: 50%;
-  margin: 1%;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  width: 90%;
+  margin: 1% auto;
   border-radius: 20px;
   padding: 2%;
 }
 
+.bio_lists {
+  display: flex;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  width: 94%;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 1%;
+}
+
+.list {
+  width: 100%;
+}
+
 .bio_pic {
-  width: 70%;
+  width: 100%;
   margin: auto;
   border-radius: 10px;
   border: 1px solid black;
@@ -23,8 +39,10 @@
 }
 
 .bio_div-content {
+  width: 50%;
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
+  margin: auto;  
 }
 
 .bio_div-social {
@@ -33,12 +51,12 @@
 
 #name {
   font-size: 3em;
-  margin-top: 10px;
+  margin: 0 auto
 }
 
 #title {
   font-size: 2em;
-  margin-bottom: 8%;
+  margin: 2% auto;
 }
 
 #about_me {

@@ -29,23 +29,26 @@ const Header = () => {
         <p id="about_me">Ready to dive into new technologies, I enjoy code challenges and am excellent at time blocking and changing strategies when stuck. I bring optimism and a big picture view to groups, but am also confident working alone. Comfortable entering situations with little or no guidance, finding solutions and implementing them.</p>
       </div>
       <div className="bio_lists">
-        <ul className="list"> Looking For
+        <ul className="list">
+          <h3>Looking For:</h3>
           <li>1</li>
           <li>2</li>
           <li>3</li>
           <li>4</li>
         </ul>
-        <ul className="list"> Best At
+        <ul className="list">
+          <h3>Best At:</h3>
           <li>1</li>
           <li>2</li>
           <li>3</li>
           <li>4</li>
         </ul>
-        <ul className="list"> Preferred locations
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
+        <ul className="list"> 
+          <h3>Preferred locations:</h3>
+          <li>Denver, CO</li>
+          <li>Boulder, CO</li>
+          <li>Colorado Springs, CO</li>
+          <li>Remote</li>
         </ul>
       </div>
     </section>

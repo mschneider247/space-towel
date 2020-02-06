@@ -1,0 +1,66 @@
+.bio_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio_div {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid black;
+  width: 90%;
+  margin: 1% auto;
+  border-radius: 20px;
+  padding: 2%;
+}
+
+.bio_lists {
+  display: flex;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid black;
+  width: 94%;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 1%;
+}
+
+.list {
+  width: 100%;
+  list-style: none;
+}
+
+.bio_pic {
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.social_icon {
+  width: 40px;
+  margin: 1%;
+}
+
+.bio_div-content {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.bio_div-social {
+  margin: auto;
+}
+
+#name {
+  font-size: 3em;
+  margin: 0 auto
+}
+
+#title {
+  font-size: 2em;
+  margin: 2% auto;
+}
+
+#about_me {
+  width: 80%;
+  margin: auto;
+}

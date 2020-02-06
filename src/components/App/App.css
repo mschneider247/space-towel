@@ -5,7 +5,7 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: white;
+  color: #E9E6FF;
 }
 
 #background {
@@ -13,8 +13,7 @@ main {
   display: table;
   width: 100%;
   height: 2000px;
-  background-color: #171717;
-  color: #000;
+  background-color: #050505;
   line-height: 1.6;
   position: relative;
   font-family: sans-serif;
@@ -36,7 +35,7 @@ main {
   height: 100%;
   top: 0;
   left: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  background: #050505;
   overflow: hidden;
 }
 .lines .line::after {

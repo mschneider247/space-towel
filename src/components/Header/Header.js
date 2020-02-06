@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css'
-import gitHub from '../../images/github.svg'
+import gitHub from '../../images/github.png'
 import linkedIn from '../../images/linkedin.png'
 
 const Header = () => {

@@ -29,10 +29,10 @@ class App extends Component {
             <Header />
           </section>
           <section>
-            <Bio />
+            <Nav />
           </section>
           <section>
-            <Nav />
+            <Bio />
           </section>
           <section>
             <Content />

@@ -1,11 +1,11 @@
-button {
+.btn {
   height: 40px;
   width: 15.7%;
   background: #E9E6FF;
   color: #050505;
 }
 
-button:hover {
+.btn:hover {
   transform: scale(0.98);
   border: 1px solid black;
   background-color: #F46036;
@@ -20,6 +20,6 @@ button:hover {
   border-radius: 15px 0 0 15px;
 }
 
-#btn6 {
+#btn7 {
   border-radius: 0 15px 15px 0;
 }

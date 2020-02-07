@@ -52,28 +52,33 @@ class Nav extends Component {
     }
   }
 
+  handleClick = () => {
+    console.log("button clicked")
+  }
+
+  createButtons = () => {
+    return this.state.topics.map((topic, index) => {
+      let selected = 'btn'
+      if (topic.isChosen) {
+        selected = 'selected'
+      }
+      let btnId = `btn${index + 1}`
+      return (
+        <button key={index + 1} 
+                id={btnId} 
+                className={selected} 
+                value={topic.value}
+                onClick={this.handleClick}>
+                {topic.name}
+        </button>
+      )
+    })
+  }
+
   render() {
-    let selected = "btn"
     return (
       <section className="nav_section">
-        <button id="btn1" className={selected}>
-          Bio
-        </button>
-        <button className={selected}>
-          Space Farmer
-        </button>
-        <button className={selected}>
-          Color Picker
-        </button>
-        <button className={selected}>
-          Star Wars API
-        </button>
-        <button className={selected}>
-          Maps
-        </button>
-        <button id="btn7" className={selected}>
-          Illustrations/Paintings
-        </button>
+        {this.createButtons()}
       </section>
     )
   }

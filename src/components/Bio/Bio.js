@@ -1,7 +1,5 @@
 import React from 'react';
 import './Bio.css'
-import gitHub from '../../images/github.svg'
-import linkedIn from '../../images/linkedin.png'
 import bioPic from '../../images/MSchneiderPic.jpg'
 
 const Bio = () => {
@@ -9,10 +7,8 @@ const Bio = () => {
   return (
     <section className="bio_section">
       <div className="bio_div">
-        <div className="bio_div-content">
-          <div className="bio_div-pic">
-            <img className="bio_pic" src={bioPic} alt='Bio Pic'/>
-          </div>
+        <div className="bio_div-pic">
+          <img className="bio_pic" src={bioPic} alt='Bio Pic'/>
         </div>
         <h3>About Me:</h3>
         <p id="about_me">Ready to dive into new technologies, I enjoy code challenges and am excellent at time blocking and changing strategies when stuck. I bring optimism and a big picture view to groups, but am also confident working alone. Comfortable entering situations with little or no guidance, finding solutions and implementing them.</p>

@@ -12,7 +12,7 @@ main {
   position: fixed;
   display: table;
   width: 100%;
-  height: 2000px;
+  height: 60em;
   background-color: #050505;
   line-height: 1.6;
   position: relative;
@@ -29,6 +29,7 @@ main {
   margin: auto;
   width: 90vw;
 }
+
 .lines .line {
   position: absolute;
   width: 1px;
@@ -38,6 +39,7 @@ main {
   background: #050505;
   overflow: hidden;
 }
+
 .lines .line::after {
   content: "";
   display: block;
@@ -62,12 +64,31 @@ main {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
+
+.lines .line:nth-child(2) {
+  margin-left: -5%;
+}
+
+.lines .line:nth-child(2)::after {
+  -webkit-animation-delay: 2.8s;
+  animation-delay: 2.8s;
+}
+
 .lines .line:nth-child(3) {
   margin-left: 25%;
 }
+
 .lines .line:nth-child(3)::after {
   -webkit-animation-delay: 2.5s;
           animation-delay: 2.5s;
+}
+.lines .line:nth-child(4) {
+  margin-left: 5%;
+}
+
+.lines .line:nth-child(4)::after {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
 }
 
 @-webkit-keyframes run {

@@ -13,7 +13,20 @@
 
 .social_icon {
   width: 40px;
-  margin: 1%;
+  margin: 3%;
+}
+
+.social_icon:hover {
+  transform: scale(0.98);
+  background-color: #F46036;
+}
+
+#github {
+  border-radius: 50%;
+}
+
+#linkedin {
+  border-radius: 20%;
 }
 
 #name {
@@ -23,5 +36,5 @@
 
 #title {
   font-size: 2em;
-  margin: 2% auto;
+  margin-top: 2%;
 }

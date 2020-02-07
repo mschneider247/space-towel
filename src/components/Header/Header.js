@@ -15,10 +15,10 @@ const Header = () => {
         <div className="title_div-social">
           <p>mschneider247@gmail.com</p>
           <a href="https://github.com/mschneider247">
-            <img className="social_icon" src={gitHub} alt="GitHub"/>
+            <img id="github" className="social_icon" src={gitHub} alt="GitHub"/>
           </a>
           <a href="https://www.linkedin.com/in/mschneider247/">
-            <img className="social_icon" src={linkedIn} alt="LinkedIn"/>
+            <img id="linkedin" className="social_icon" src={linkedIn} alt="LinkedIn"/>
           </a>
         </div>
       </section>

@@ -1,17 +1,23 @@
 import React, { Component } from 'react';
+import  { Route } from 'react-router-dom';
 import './App.css';
 import Header from '../Header/Header';
-import Bio from '../Bio/Bio';
+import Content from '../Content/Content'
+import Bio from '../Bio/Bio'
 import Nav from '../Nav/Nav';
-import Content from '../Content/Content';
 
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      data: []
+      topic: 'Bio'
     }
+  }
+
+  updateTopic = (topic) => {
+    console.log("Update topic! ", topic)
+    this.setState({ topic: topic})
   }
 
   render () {
@@ -31,10 +37,10 @@ class App extends Component {
             <Header />
           </section>
           <section>
-            <Nav />
+            <Nav updateTopic={this.updateTopic}/>
           </section>
           <section>
-            <Bio />
+            <Route path='/bio' render={() => <Bio />} />
           </section>
         </main>
       </section>

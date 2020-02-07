@@ -1,8 +1,12 @@
 import React from 'react';
+import './Nav.css'
 
 const Nav = () => {
   return (
-    <div>
+    <section className="nav_section">
+      <button id="btn1">
+        Bio
+      </button>
       <button>
         Space Farmer
       </button>
@@ -12,7 +16,13 @@ const Nav = () => {
       <button>
         Star Wars API
       </button>
-    </div>
+      <button>
+        Maps
+      </button>
+      <button id="btn6">
+        Illustrations/Paintings
+      </button>
+    </section>
   )
 };
 

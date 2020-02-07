@@ -34,9 +34,6 @@ class App extends Component {
           <section>
             <Bio />
           </section>
-          <section>
-            <Content />
-          </section>
         </main>
       </section>
     );

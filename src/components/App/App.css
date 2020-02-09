@@ -13,7 +13,7 @@ main {
   display: table;
   width: 100%;
   height: 60em;
-  background-color: #050505;
+  background-color: #151515;
   line-height: 1.6;
   position: relative;
   font-family: sans-serif;
@@ -32,11 +32,11 @@ main {
 
 .lines .line {
   position: absolute;
-  width: 1px;
+  width: 2px;
   height: 100%;
   top: 0;
   left: 50%;
-  background: #050505;
+  background: #0A2239;
   overflow: hidden;
 }
 
@@ -48,10 +48,9 @@ main {
   width: 100%;
   top: -50%;
   left: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(75%, #ffffff), to(#ffffff));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
-  -webkit-animation: run 7s 0s infinite;
-          animation: run 7s 0s infinite;
+  background: linear-gradient(to bottom, #53A2BE 0%, #E9E6FF 5%, #0A2239 10%);
+  -webkit-animation: run 18s 0s infinite;
+          animation: run 18s 0s infinite;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
@@ -71,7 +70,7 @@ main {
 
 .lines .line:nth-child(2)::after {
   -webkit-animation-delay: 2.8s;
-  animation-delay: 2.8s;
+  animation-delay: 4.8s;
 }
 
 .lines .line:nth-child(3) {
@@ -80,7 +79,7 @@ main {
 
 .lines .line:nth-child(3)::after {
   -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+  animation-delay: 7.5s;
 }
 .lines .line:nth-child(4) {
   margin-left: 5%;

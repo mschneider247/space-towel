@@ -2,12 +2,12 @@
   height: 40px;
   width: 13.4%;
   background: #E9E6FF;
-  color: #050505;
+  color: #151515;
 }
 
 .btn:hover {
   transform: scale(0.98);
-  border: 1px solid black;
+  border: 1px solid #151515;
   background-color: #F46036;
   cursor: pointer;
   color: #e9e6ff;

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import  { Route } from 'react-router-dom';
 import './App.css';
 import Header from '../Header/Header';
-import Content from '../Content/Content'
+import SpaceFarmer from '../SpaceFarmer/SpaceFarmer';
 import Bio from '../Bio/Bio'
 import Nav from '../Nav/Nav';
 
@@ -41,6 +41,9 @@ class App extends Component {
           </section>
           <section>
             <Route path='/bio' render={() => <Bio />} />
+          </section>
+          <section>
+            <Route path='/spaceFarmer' render={() => <SpaceFarmer />} />
           </section>
         </main>
       </section>

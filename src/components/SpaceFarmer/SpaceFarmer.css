@@ -1,0 +1,18 @@
+.spaceFarmer_section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tRow {
+  height: 60%;
+  width: 44%;
+  padding: 1%;
+  border-radius: 3%;
+}
+
+.bRow {
+  height: 26%;
+  width: 28.5%;
+  padding: 1%;
+  border-radius: 3%;
+}

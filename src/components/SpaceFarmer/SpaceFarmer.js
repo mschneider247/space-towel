@@ -31,12 +31,16 @@ const SpaceFarmer = () => {
         </ul>
       </div>
       <div className="btn_div">
-        <button className="project_btn">
-          Live Site
-        </button>
-        <button className="project_btn">
-          Github
-        </button>
+        <a href="https://space-farmer.herokuapp.com/">
+          <button className="project_btn">
+            Live Site
+          </button>
+        </a>
+        <a href="https://github.com/mschneider247/space-farmer">
+          <button className="project_btn">
+            Github
+          </button>
+        </a>
         <p>
           You are the Space Farmer! Login and start new proposals
           for your space endevours. Choose between a myriad of different farming supplies to takewith you on your adventure. Once you 've decided what supplies to take you are offered arange of destinations around the solar system. Deppending on the destination you willhave different rockets at your disposal. The application will take your choices anddetermine the total weights and costs for the trip and display these all in a finalproposal overview. Too expensive? Create as many proposals as you like!

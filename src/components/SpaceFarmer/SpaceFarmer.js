@@ -10,50 +10,45 @@ const SpaceFarmer = () => {
 
   return (
     <section className="project_section">
-      <section className="spaceFarmer_images">
-        <h1 className="project_title">Space Farmer</h1>
-        <div>
-          <h2>
-            Live Site
-          </h2>
-          <h2>
-            Github
-          </h2>
-        </div>
+      <h1 className="project_title">Space Farmer</h1>
+      <div className="project_tech">
+        <ul>
+          <h3>
+            Areas of Focus:
+          </h3>
+          <li>
+            Solo Project utlizing React, CSS3 and RESTful API
+          </li>
+          <li>
+            Fetches rocket and payload data from an unofficial SpaceX API
+          </li>
+          <li>
+            Gameplay like design allows user to choose farming payload to take to space
+          </li>
+          <li>
+            Created robust testing suite using Jest/Enzyme
+          </li>
+        </ul>
+      </div>
+      <div className="btn_div">
+        <button className="project_btn">
+          Live Site
+        </button>
+        <button className="project_btn">
+          Github
+        </button>
+        <p>
+          You are the Space Farmer! Login and start new proposals
+          for your space endevours. Choose between a myriad of different farming supplies to takewith you on your adventure. Once you 've decided what supplies to take you are offered arange of destinations around the solar system. Deppending on the destination you willhave different rockets at your disposal. The application will take your choices anddetermine the total weights and costs for the trip and display these all in a finalproposal overview. Too expensive? Create as many proposals as you like!
+        </p>
+      </div>
+      <div className="project_images">
         <img className="tRow" src={sf1} alt="img1"/>
         <img className="tRow" src={sf2} alt="img2"/>
         <img className="bRow" src={sf3} alt="img3"/>
         <img className="bRow" src={sf4} alt="img4"/>
         <img className="bRow" src={sf5} alt="img5"/>
-      </section>
-      <section className="spaceFarmer_info">
-        <div>
-          <ul>
-            <h3>
-              Tech Used:
-            </h3>
-            <li>
-              tech 1
-            </li>
-            <li>
-              tech 2
-            </li>
-            <li>
-              tech 3
-            </li>
-            <li>
-              tech 4
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li>
-              yeaaah!
-            </li>
-          </ul>
-        </div>
-      </section>
+      </div>
     </section>
   )
 }

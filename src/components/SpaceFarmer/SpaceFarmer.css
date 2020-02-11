@@ -1,0 +1,68 @@
+.project_section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  margin: 3%;
+  background: rgba(83, 162, 190, 0.3);
+  border-radius: 3%;
+  border: 1px solid #53A2BE;
+}
+
+.tRow {
+  height: 60%;
+  width: 44%;
+  padding: 0.6%;
+  border-radius: 3%;
+}
+
+.bRow {
+  height: 26%;
+  width: 28.5%;
+  padding: 0.6%;
+  border-radius: 3%;
+}
+
+.tRow:hover, .bRow:hover {
+  transform: scale(1.2);
+}
+
+.project_title {
+  margin-left: 8%;
+  text-align: left;
+  font-size: 2.5em;
+}
+
+.project_btn {
+  font-size: 1em;
+  margin: 1%;
+  border-radius: 10px;
+  background-color: #E9E6FF;
+}
+
+.project_btn:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+  background-color: #F46036;
+  color: #E9E6FF;
+}
+
+.btn_div {
+  margin-left: 10%;
+  text-align: left;
+  width: 80%;
+}
+
+.project_tech {
+  width: 40%;
+  margin: 4% 10% 0 auto;
+}
+
+.project_images {
+  margin-left: 3%;
+  margin-bottom: -50px;
+  margin-top: 2%;
+}
+
+ul {
+  text-align: left;
+}

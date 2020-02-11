@@ -4,7 +4,8 @@
 }
 
 .bio_div, .bio_lists {
-  background: #53A2BE;
+  background: rgba(83, 162, 190, 0.3);
+  border: 1px solid rgb(83, 162, 190);
   padding: 2%;
 }
 

@@ -1,18 +1,33 @@
-.spaceFarmer_section {
+.project_section {
   display: flex;
   flex-wrap: wrap;
+  padding: 2%;
+  margin: 3%;
+  background: rgba(83, 162, 190, 0.3);
+  border-radius: 3%;
+  border: 1px solid #53A2BE;
 }
 
 .tRow {
   height: 60%;
   width: 44%;
-  padding: 1%;
+  padding: 0.6%;
   border-radius: 3%;
 }
 
 .bRow {
   height: 26%;
   width: 28.5%;
-  padding: 1%;
+  padding: 0.6%;
   border-radius: 3%;
+}
+
+.tRow:hover, .bRow:hover {
+  transform: scale(1.2);
+}
+
+.project_title {
+  margin-left: 10%;
+  text-align: left;
+  font-size: 2em;
 }

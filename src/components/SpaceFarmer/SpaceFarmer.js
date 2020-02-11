@@ -9,9 +9,17 @@ import sf5 from '../../images/SF5.jpg';
 const SpaceFarmer = () => {
 
   return (
-    <section className="spaceFarmer_section">
+    <section className="project_section">
       <section className="spaceFarmer_images">
-        <h1>Space Farmer!!</h1>
+        <h1 className="project_title">Space Farmer</h1>
+        <div>
+          <h2>
+            Live Site
+          </h2>
+          <h2>
+            Github
+          </h2>
+        </div>
         <img className="tRow" src={sf1} alt="img1"/>
         <img className="tRow" src={sf2} alt="img2"/>
         <img className="bRow" src={sf3} alt="img3"/>

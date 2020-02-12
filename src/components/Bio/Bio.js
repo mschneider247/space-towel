@@ -10,23 +10,25 @@ const Bio = () => {
         <div className="bio_div-pic">
           <img className="bio_pic" src={bioPic} alt='Bio Pic'/>
         </div>
-        <h3>About Me:</h3>
-        <p id="about_me">Ready to dive into new technologies, I enjoy code challenges and am excellent at time blocking and changing strategies when stuck. I bring optimism and a big picture view to groups, but am also confident working alone. Comfortable entering situations with little or no guidance, finding solutions and implementing them.</p>
+        <div className="about_div">
+          <h3>About Me:</h3>
+          <p id="about_me">Ready to dive into new technologies, I enjoy code challenges and am excellent at time blocking and changing strategies when stuck. I bring optimism and a big picture view to groups, but am also confident working alone. Comfortable entering situations with little or no guidance, finding solutions and implementing them.</p>
+        </div>
       </div>
       <div className="bio_lists">
         <ul className="list">
           <h3>Looking For:</h3>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
+          <li>Front End Web/Mobile/AR Development</li>
+          <li>Continued learning</li>
+          <li>Diverse, skilled team of individuals</li>
+          <li>Embrace of story telling</li>
         </ul>
         <ul className="list">
           <h3>Best At:</h3>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
+          <li>ES6, React, React-Native, Redux</li>
+          <li>CSS3, Semantic HTML</li>
+          <li>Site Design and Mockups</li>
+          <li>Testing FE applications</li>
         </ul>
         <ul className="list"> 
           <h3>Preferred locations:</h3>

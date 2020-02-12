@@ -1,4 +1,4 @@
-.bio_section {
+.bio_section, .bio_div {
   display: flex;
   flex-wrap: wrap;
 }
@@ -33,20 +33,24 @@
 }
 
 .bio_pic {
-  width: 100%;
-  margin: auto;
+  width: 260px;
+  height: 260px;
   border-radius: 10px;
   border: 1px solid #151515;
 }
 
 .bio_div-pic {
-  width: 50%;
+  width: 30%;
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
+  margin: 0 auto 0 8%;
 }
 
 #about_me {
   width: 80%;
   margin: auto;
+}
+
+.about_div {
+  width: 50%;
 }

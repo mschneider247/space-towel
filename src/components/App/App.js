@@ -40,6 +40,9 @@ class App extends Component {
             <Nav updateTopic={this.updateTopic}/>
           </section>
           <section>
+            <Route exact path='/' render={() => <Bio />} />
+          </section>
+          <section>
             <Route path='/bio' render={() => <Bio />} />
           </section>
           <section>

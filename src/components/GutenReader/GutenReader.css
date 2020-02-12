@@ -1,0 +1,9 @@
+.screenshots {
+  height: 380px;
+  margin: 1.5%;
+  border-radius: 20px;
+}
+
+.screenshots:hover {
+  transform: scale(1.2);
+}

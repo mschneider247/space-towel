@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import SpaceFarmer from '../SpaceFarmer/SpaceFarmer';
 import Bio from '../Bio/Bio'
 import Nav from '../Nav/Nav';
+import GutenReader from '../GutenReader/GutenReader';
 
 
 class App extends Component {
@@ -44,9 +45,8 @@ class App extends Component {
           </section>
           <section>
             <Route path='/bio' render={() => <Bio />} />
-          </section>
-          <section>
             <Route path='/spaceFarmer' render={() => <SpaceFarmer />} />
+            <Route path='/gutenReader' render={() => <GutenReader />} />
           </section>
         </main>
       </section>

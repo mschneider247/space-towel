@@ -29,9 +29,14 @@ const GutenReader = () => {
         </ul>
       </div>
       <div className="btn_div">
-        <a href="https://github.com/mschneider247/space-farmer">
+        <a href="https://github.com/Guten-Reader/guten_reader_FE">
           <button className="project_btn">
             Github
+          </button>
+        </a>
+        <a href="https://www.youtube.com/watch?v=OcsrT65ifnE&feature=youtu.be%3Fvq%3Dhd1080">
+          <button className="project_btn">
+            YouTube Demo
           </button>
         </a>
         <p>

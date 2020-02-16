@@ -11,8 +11,8 @@ const Bio = () => {
           <img className="bio_pic" src={bioPic} alt='Bio Pic'/>
         </div>
         <div className="about_div">
-          <h3>About Me:</h3>
-          <p id="about_me">Ready to dive into new technologies, I enjoy code challenges and am excellent at time blocking and changing strategies when stuck. I bring optimism and a big picture view to groups, but am also confident working alone. Comfortable entering situations with little or no guidance, finding solutions and implementing them.</p>
+          <h3 id="about_me_header">About Me</h3>
+          <p id="about_me_text">Ready to dive into new technologies, I enjoy code challenges and am excellent at time blocking and changing strategies when stuck. I bring optimism and a big picture view to groups, but am also confident working alone. Comfortable entering situations with little or no guidance, finding solutions and implementing them.</p>
         </div>
       </div>
       <div className="bio_lists">

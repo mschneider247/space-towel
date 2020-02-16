@@ -34,8 +34,7 @@
 }
 
 .bio_pic {
-  width: 260px;
-  height: 250px;
+  height: 75%;
   border-radius: 10px;
   border: 1px solid #151515;
 }
@@ -47,9 +46,14 @@
   margin: 0 auto 0 8%;
 }
 
-#about_me {
+#about_me_text {
   width: 80%;
   margin: auto;
+  font-size: 1.25em;
+}
+
+#about_me_header {
+  font-size: 2.5em;
 }
 
 .about_div {

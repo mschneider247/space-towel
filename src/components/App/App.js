@@ -6,6 +6,7 @@ import SpaceFarmer from '../SpaceFarmer/SpaceFarmer';
 import Bio from '../Bio/Bio'
 import Nav from '../Nav/Nav';
 import GutenReader from '../GutenReader/GutenReader';
+import StarWars from '../StarWars/StarWars';
 import Maps from '../Maps/Maps';
 
 
@@ -48,6 +49,7 @@ class App extends Component {
             <Route path='/bio' render={() => <Bio />} />
             <Route path='/spaceFarmer' render={() => <SpaceFarmer />} />
             <Route path='/gutenReader' render={() => <GutenReader />} />
+            <Route path='/starWars' render={() => <StarWars />} />
             <Route path='/maps' render={() => <Maps />} />
           </section>
         </main>

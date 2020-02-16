@@ -1,30 +1,29 @@
 import React from 'react';
 import './Maps.css';
+import m1 from '../../images/WorldMap.jpg'
+import m2 from '../../images/PlaneOfWater.jpg'
+import m3 from '../../images/PirateCove.jpg'
+import m4 from '../../images/OrcMap.jpg'
+import m5 from '../../images/BayIgh.jpg'
 
 const Maps = () => {
 
   return (
     <section className="project_section">
-      <h1 className="project_title">Guten Reader</h1>
+      <h1 className="project_title">Maps</h1>
       <div className="project_tech">
         <ul>
           <h3>
             Areas of Focus:
           </h3>
           <li>
-            Group Project, Front-End Team
+            Solo Projects designed to provide a story-telling foundation
           </li>
           <li>
-            Learn and test a new framework, React Native
+            Sketched by hand and inked/colored with PhotoShop
           </li>
           <li>
-            Utilize different network requests like GET, POST, DELETE & PATCH
-          </li>
-          <li>
-            Learn how to team up and work efficiently with another team and their specialties
-          </li>
-          <li>
-            Follow a professional GitHub workflow.
+            Bright Colors and comic like approach encourage the audience to engage with the different elements
           </li>
         </ul>
       </div>
@@ -40,15 +39,15 @@ const Maps = () => {
           </button>
         </a>
         <p>
-          Living in a small, paper-thin walled apartment in Denver, Fenton was reading a book late one night. As the story is intensifying, so is Fenton's heart rate, and also the plot in neighbor's TV show in the apartment next door. Fenton turns the page to read something astonishing as the show reaches its peak plot and music volume!!
-          Guten Reader is an eReader that performs sentiment analysis of the text on the page and plays a song as you read that matches the mood of text!
+          Welcome to entire unexplored worlds! Maps give stories foundations to build on. Simply giving places names and physical locations begins to tell the story of their relationships. This encourages the audience to question what adventures and characters they might find and in the same way drives the story teller to fill in details. Many of the best stories begin with a map.
         </p>
       </div>
       <div className="project_images">
-        <img className="screenshots" src="https://user-images.githubusercontent.com/50784336/72082772-ee832000-32bd-11ea-9c92-22acc3bef580.png" alt="splashscreen"/>
-        <img className="screenshots" src="https://user-images.githubusercontent.com/50784336/72039160-39bb1580-3261-11ea-997c-d5f0b74d824d.png" alt="screenshot1"/>
-        <img className="screenshots" src="https://user-images.githubusercontent.com/50784336/72039163-3b84d900-3261-11ea-8650-35270fb716c9.png" alt="screenshot2"/>
-        <img className="screenshots" src="https://user-images.githubusercontent.com/50784336/72038922-61f64480-3260-11ea-97be-17cf3fae60a3.png" alt="screenshot3"/>
+        <img className="screenshots" src={m1} alt="WorldMap"/>
+        <img className="screenshots" src={m2} alt="PlaneOfWater"/>
+        <img className="screenshots" src={m3} alt="PirateCove"/>
+        <img className="screenshots" src={m4} alt="OrcMap"/>
+        <img className="screenshots" src={m5} alt="BayIgh"/>
       </div>
     </section>
   )

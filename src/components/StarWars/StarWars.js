@@ -1,10 +1,9 @@
 import React from 'react';
 import './StarWars.css';
-import sf1 from '../../images/SF1.jpg';
-import sf2 from '../../images/SF2.jpg';
-import sf3 from '../../images/SF3.jpg';
-import sf4 from '../../images/SF4.jpg';
-import sf5 from '../../images/SF5.jpg';
+import sw1 from '../../images/swapi_characters.png';
+import sw2 from '../../images/swapi_favorites.png';
+import sw3 from '../../images/swapi_form.png';
+import sw4 from '../../images/swapi_movies-loading.png';
 
 const StarWars = () => {
 
@@ -47,11 +46,10 @@ const StarWars = () => {
         </p>
       </div>
       <div className="project_images">
-        <img className="tRow" src={sf1} alt="img1"/>
-        <img className="tRow" src={sf2} alt="img2"/>
-        <img className="bRow" src={sf3} alt="img3"/>
-        <img className="bRow" src={sf4} alt="img4"/>
-        <img className="bRow" src={sf5} alt="img5"/>
+        <img className="tRow" src={sw1} alt="img1"/>
+        <img className="bRow" src={sw2} alt="img2"/>
+        <img className="bRow" src={sw3} alt="img3"/>
+        <img className="bRow" src={sw4} alt="img4"/>
       </div>
     </section>
   )

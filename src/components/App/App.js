@@ -5,6 +5,8 @@ import Header from '../Header/Header';
 import SpaceFarmer from '../SpaceFarmer/SpaceFarmer';
 import Bio from '../Bio/Bio'
 import Nav from '../Nav/Nav';
+import GutenReader from '../GutenReader/GutenReader';
+import Maps from '../Maps/Maps';
 
 
 class App extends Component {
@@ -40,10 +42,13 @@ class App extends Component {
             <Nav updateTopic={this.updateTopic}/>
           </section>
           <section>
-            <Route path='/bio' render={() => <Bio />} />
+            <Route exact path='/' render={() => <Bio />} />
           </section>
           <section>
+            <Route path='/bio' render={() => <Bio />} />
             <Route path='/spaceFarmer' render={() => <SpaceFarmer />} />
+            <Route path='/gutenReader' render={() => <GutenReader />} />
+            <Route path='/maps' render={() => <Maps />} />
           </section>
         </main>
       </section>

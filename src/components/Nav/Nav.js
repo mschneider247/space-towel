@@ -11,7 +11,7 @@ class Nav extends Component {
           id: 1,
           name: 'Bio',
           value: 'bio',
-          isChosen: true,
+          isChosen: false,
         },
         {
           id: 2,
@@ -27,8 +27,8 @@ class Nav extends Component {
         },
         {
           id: 4,
-          name: 'Maps',
-          value: 'maps',
+          name: 'SWAPI',
+          value: 'starWars',
           isChosen: false,
         },
         {
@@ -39,8 +39,8 @@ class Nav extends Component {
         },
         {
           id: 6,
-          name: 'Star Wars Trivia',
-          value: 'starWars',
+          name: 'Maps',
+          value: 'maps',
           isChosen: false,
         },
         {

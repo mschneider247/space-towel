@@ -42,18 +42,15 @@ class Nav extends Component {
   }
 
   handleClick = async (id) => {
-    let chosenTopic = ''
     let setTopics = this.state.topics.map(topic => {
       if (topic.id === id) {
         topic.isChosen = true;
-        chosenTopic = topic.value
       } else {
         topic.isChosen = false
       }
       return topic;
     });
     await this.setState({ topics: setTopics })
-    this.props.updateTopic(chosenTopic)
   }
 
   createButtons = () => {
@@ -65,13 +62,14 @@ class Nav extends Component {
       let btnId = `btn${index + 1}`
       let route = "/" + topic.value
       return (
-        <Link to={route}>
-          <button key={index + 1} 
-                 id={btnId} 
-                 className={selected} 
-                 value={topic.value}
-                 onClick={() => this.handleClick(index + 1)}>
-                {topic.name}
+        <Link to={route} key={index + 1}>
+          <button  
+            id={btnId} 
+            className={selected} 
+            value={topic.value}
+            onClick={() => this.handleClick(index + 1)}
+          >
+            {topic.name}
           </button>
         </Link>
       )

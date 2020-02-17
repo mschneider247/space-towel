@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/space-towel/static/css/main.e8b9a4c8.chunk.css",
+    "main.js": "/space-towel/static/js/main.5de4030d.chunk.js",
+    "main.js.map": "/space-towel/static/js/main.5de4030d.chunk.js.map",
+    "runtime-main.js": "/space-towel/static/js/runtime-main.cb9ca2d3.js",
+    "runtime-main.js.map": "/space-towel/static/js/runtime-main.cb9ca2d3.js.map",
+    "static/js/2.ee92db92.chunk.js": "/space-towel/static/js/2.ee92db92.chunk.js",
+    "static/js/2.ee92db92.chunk.js.map": "/space-towel/static/js/2.ee92db92.chunk.js.map",
+    "index.html": "/space-towel/index.html",
+    "precache-manifest.c9ec57976c7d880a3974b613b9ebb39a.js": "/space-towel/precache-manifest.c9ec57976c7d880a3974b613b9ebb39a.js",
+    "service-worker.js": "/space-towel/service-worker.js",
+    "static/css/main.e8b9a4c8.chunk.css.map": "/space-towel/static/css/main.e8b9a4c8.chunk.css.map",
+    "static/js/2.ee92db92.chunk.js.LICENSE": "/space-towel/static/js/2.ee92db92.chunk.js.LICENSE",
+    "static/media/BayIgh.jpg": "/space-towel/static/media/BayIgh.90a3c368.jpg",
+    "static/media/MSchneiderPic.jpg": "/space-towel/static/media/MSchneiderPic.252fdca2.jpg",
+    "static/media/MichaelSchneider.jpg": "/space-towel/static/media/MichaelSchneider.896ce281.jpg",
+    "static/media/OrcMap.jpg": "/space-towel/static/media/OrcMap.ec31b361.jpg",
+    "static/media/PirateCove.jpg": "/space-towel/static/media/PirateCove.ce771877.jpg",
+    "static/media/PlaneOfWater.jpg": "/space-towel/static/media/PlaneOfWater.1561f3d4.jpg",
+    "static/media/SF1.jpg": "/space-towel/static/media/SF1.15dc90e4.jpg",
+    "static/media/SF2.jpg": "/space-towel/static/media/SF2.72075c8e.jpg",
+    "static/media/SF3.jpg": "/space-towel/static/media/SF3.04cd9e74.jpg",
+    "static/media/SF4.jpg": "/space-towel/static/media/SF4.47dc4747.jpg",
+    "static/media/SF5.jpg": "/space-towel/static/media/SF5.ca69e409.jpg",
+    "static/media/TuringQuest.jpg": "/space-towel/static/media/TuringQuest.1c5dca0b.jpg",
+    "static/media/WorldMap.jpg": "/space-towel/static/media/WorldMap.fed9c945.jpg",
+    "static/media/github.png": "/space-towel/static/media/github.c1711deb.png",
+    "static/media/swapi_characters.png": "/space-towel/static/media/swapi_characters.75afa097.png",
+    "static/media/swapi_favorites.png": "/space-towel/static/media/swapi_favorites.657d32a4.png",
+    "static/media/swapi_form.png": "/space-towel/static/media/swapi_form.a17909ad.png",
+    "static/media/swapi_movies-loading.png": "/space-towel/static/media/swapi_movies-loading.208c7dd6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb9ca2d3.js",
+    "static/js/2.ee92db92.chunk.js",
+    "static/css/main.e8b9a4c8.chunk.css",
+    "static/js/main.5de4030d.chunk.js"
+  ]
+}

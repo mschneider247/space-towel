@@ -27,6 +27,7 @@ class App extends Component {
         </section>
         <main>
           <section>
+            <Route path='/resume' render={() => <Resume />} />
             <Header />
           </section>
           <section>
@@ -36,7 +37,6 @@ class App extends Component {
             <Route exact path='/' render={() => <Bio />} />
           </section>
           <section>
-            <Route path='/resume' render={() => <Resume />} />
             <Route path='/bio' render={() => <Bio />} />
             <Route path='/spaceFarmer' render={() => <SpaceFarmer />} />
             <Route path='/gutenReader' render={() => <GutenReader />} />

@@ -4,6 +4,8 @@
   background: #E9E6FF;
   color: #151515;
   outline: none;
+  font-weight: 300;
+  font-size: 1em;
 }
 
 .btn:hover {
@@ -21,6 +23,8 @@
   height: 40px;
   width: 18.8%;
   background-color: #F46036;
+  font-weight: 400;
+  font-size: 1em;
 }
 
 #btn1 {

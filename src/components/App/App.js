@@ -12,6 +12,12 @@ import Resume from '../Resume/Resume'
 
 
 class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      currentTopic: '',
+    }
+  }
 
   render () {
     return (

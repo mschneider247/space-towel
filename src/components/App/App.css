@@ -107,3 +107,8 @@ main {
     top: 110%;
   }
 }
+
+p, li {
+  font-weight: 400;
+  font-size: 1.3em;
+}

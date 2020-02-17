@@ -11,7 +11,7 @@ const Maps = () => {
   return (
     <section className="project_section">
       <h1 className="project_title">Maps</h1>
-      <div className="project_tech">
+      <div className="map_tech">
         <ul>
           <h3>
             Areas of Focus:
@@ -27,17 +27,7 @@ const Maps = () => {
           </li>
         </ul>
       </div>
-      <div className="btn_div">
-        <a href="https://github.com/Guten-Reader/guten_reader_FE">
-          <button className="project_btn">
-            Github
-          </button>
-        </a>
-        <a href="https://www.youtube.com/watch?v=OcsrT65ifnE&feature=youtu.be%3Fvq%3Dhd1080">
-          <button className="project_btn">
-            YouTube Demo
-          </button>
-        </a>
+      <div className="description_div">
         <p>
           Maps make excellent starting places for games. Maps give stories foundations to build on. Simply giving places names and physical locations begins to tell the story of their relationships. This encourages the audience to question what adventures and characters they might find and in the same way drives the story teller to fill in details. Many of the best stories begin with a map.
         </p>

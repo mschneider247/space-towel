@@ -33,39 +33,24 @@ class Nav extends Component {
         },
         {
           id: 5,
-          name: 'Color_Picker',
-          value: 'colorPicker',
-          isChosen: false,
-        },
-        {
-          id: 6,
           name: 'Maps',
           value: 'maps',
           isChosen: false,
         },
-        {
-          id: 7,
-          name: 'Illustrations/Paintings',
-          value: 'illustrationsPaintings',
-          isChosen: false,
-        }
       ]
     }
   }
 
   handleClick = async (id) => {
-    let chosenTopic = ''
     let setTopics = this.state.topics.map(topic => {
       if (topic.id === id) {
         topic.isChosen = true;
-        chosenTopic = topic.value
       } else {
         topic.isChosen = false
       }
       return topic;
     });
     await this.setState({ topics: setTopics })
-    this.props.updateTopic(chosenTopic)
   }
 
   createButtons = () => {
@@ -77,13 +62,14 @@ class Nav extends Component {
       let btnId = `btn${index + 1}`
       let route = "/" + topic.value
       return (
-        <Link to={route}>
-          <button key={index + 1} 
-                 id={btnId} 
-                 className={selected} 
-                 value={topic.value}
-                 onClick={() => this.handleClick(index + 1)}>
-                {topic.name}
+        <Link to={route} key={index + 1}>
+          <button  
+            id={btnId} 
+            className={selected} 
+            value={topic.value}
+            onClick={() => this.handleClick(index + 1)}
+          >
+            {topic.name}
           </button>
         </Link>
       )

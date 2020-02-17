@@ -8,20 +8,10 @@ import Nav from '../Nav/Nav';
 import GutenReader from '../GutenReader/GutenReader';
 import StarWars from '../StarWars/StarWars';
 import Maps from '../Maps/Maps';
+import Resume from '../Resume/Resume'
 
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      topic: 'Bio'
-    }
-  }
-
-  updateTopic = (topic) => {
-    console.log("Update topic! ", topic)
-    this.setState({ topic: topic})
-  }
 
   render () {
     return (
@@ -37,10 +27,11 @@ class App extends Component {
         </section>
         <main>
           <section>
+            <Route path='/resume' render={() => <Resume />} />
             <Header />
           </section>
           <section>
-            <Nav updateTopic={this.updateTopic}/>
+            <Nav />
           </section>
           <section>
             <Route exact path='/' render={() => <Bio />} />

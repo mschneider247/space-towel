@@ -42,7 +42,7 @@ const StarWars = () => {
         </a>
         <p>
           SWAPI is a React App based around the Star Wars API that displays different categories of Star Wars data, starting with movies, then diving deeper into 10 characters
-          for each movie. Users can see important information like characters' species and homeworld. Each movie displays its own introductory scrolling text in the unique Star Wars fasion. Plus user's can save their favorite characters and view then all on one page!
+          for each movie. Users can see important information like characters' species and homeworld. Each movie displays its own introductory scrolling text in the unique Star Wars fasion. Plus users can save their favorite characters and view then all on one page!
         </p>
       </div>
       <div className="project_images">

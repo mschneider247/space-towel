@@ -21,7 +21,7 @@ const GutenReader = () => {
             Utilize different network requests like GET, POST, DELETE & PATCH
           </li>
           <li>
-            Learn how to team up and work efficiently with another team and their specialties
+            Learn how to work efficiently with a back-end team and their specialties
           </li>
           <li>
             Follow a professional GitHub workflow.

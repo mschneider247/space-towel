@@ -11,7 +11,7 @@ class Nav extends Component {
           id: 1,
           name: 'Bio',
           value: 'bio',
-          isChosen: false,
+          isChosen: true,
         },
         {
           id: 2,

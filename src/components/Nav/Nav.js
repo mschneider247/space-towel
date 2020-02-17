@@ -33,22 +33,10 @@ class Nav extends Component {
         },
         {
           id: 5,
-          name: 'Color_Picker',
-          value: 'colorPicker',
-          isChosen: false,
-        },
-        {
-          id: 6,
           name: 'Maps',
           value: 'maps',
           isChosen: false,
         },
-        {
-          id: 7,
-          name: 'Illustrations/Paintings',
-          value: 'illustrationsPaintings',
-          isChosen: false,
-        }
       ]
     }
   }

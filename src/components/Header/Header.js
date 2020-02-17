@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './Header.css'
 import gitHub from '../../images/github.png'
 import linkedIn from '../../images/linkedin.png'
@@ -20,6 +21,9 @@ const Header = () => {
           <a href="https://www.linkedin.com/in/mschneider247/">
             <img id="linkedin" className="social_icon" src={linkedIn} alt="LinkedIn"/>
           </a>
+          <Link to='/resume'>
+            <p id="resume">Resume</p>
+          </Link>
         </div>
       </section>
     </section>

@@ -5,6 +5,7 @@ import m2 from '../../images/PlaneOfWater.jpg'
 import m3 from '../../images/PirateCove.jpg'
 import m4 from '../../images/OrcMap.jpg'
 import m5 from '../../images/BayIgh.jpg'
+import m6 from '../../images/TuringQuest.jpg'
 
 const Maps = () => {
 
@@ -33,11 +34,11 @@ const Maps = () => {
         </p>
       </div>
       <div className="project_images">
-        <img className="tRow" src={m1} alt="WorldMap"/>
-        <img className="tRow" src={m2} alt="PlaneOfWater"/>
-        <img className="screenshots" src={m3} alt="PirateCove"/>
-        <img className="screenshots" src={m4} alt="OrcMap"/>
-        <img className="screenshots" src={m5} alt="BayIgh"/>
+        <img className="screenshots2" src={m6} alt="TuringQuest"/>
+        <img className="screenshots2" src={m2} alt="PlaneOfWater"/>
+        <img className="screenshots2" src={m3} alt="PirateCove"/>
+        <img className="screenshots2" src={m5} alt="BayIgh"/>
+        <img className="screenshots2" src={m4} alt="OrcMap"/>
       </div>
     </section>
   )

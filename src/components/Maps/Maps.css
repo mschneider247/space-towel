@@ -8,3 +8,13 @@
   width: 40%;
   margin: 4% 10% 0 auto;
 }
+
+.screenshots2 {
+  height: 680px;
+  margin: 1.5%;
+  border-radius: 20px;
+}
+
+.screenshots2:hover {
+  transform: scale(1.2);
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import './Resume.css'
+import resume from '../../images/MichaelSchneider.jpg'
 
 class Resume extends Component {
 
@@ -8,11 +9,11 @@ class Resume extends Component {
     return (
       <section className="resume_section">
         <div>
-          <Link to="/">
-            X
+          <Link to="/bio">
+            <p id="resume_close">X</p>
           </Link>
         </div>
-        <p>Resume Yo</p>
+        <img id="resume" src={resume} alt="Michael Schneider Resume"/>
       </section>
     )
   }

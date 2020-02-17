@@ -33,10 +33,12 @@
 }
 
 .project_btn {
-  font-size: 1em;
-  margin: 1%;
+  font-size: 1.1em;
+  padding: 0.5% 1%;
+  margin: 10px 20px 0 0;
   border-radius: 10px;
   background-color: #E9E6FF;
+  font-weight: 300;
 }
 
 .project_btn:hover {

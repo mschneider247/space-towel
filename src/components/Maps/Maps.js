@@ -39,12 +39,12 @@ const Maps = () => {
           </button>
         </a>
         <p>
-          Welcome to entire unexplored worlds! Maps give stories foundations to build on. Simply giving places names and physical locations begins to tell the story of their relationships. This encourages the audience to question what adventures and characters they might find and in the same way drives the story teller to fill in details. Many of the best stories begin with a map.
+          Maps make excellent starting places for games. Maps give stories foundations to build on. Simply giving places names and physical locations begins to tell the story of their relationships. This encourages the audience to question what adventures and characters they might find and in the same way drives the story teller to fill in details. Many of the best stories begin with a map.
         </p>
       </div>
       <div className="project_images">
-        <img className="screenshots" src={m1} alt="WorldMap"/>
-        <img className="screenshots" src={m2} alt="PlaneOfWater"/>
+        <img className="tRow" src={m1} alt="WorldMap"/>
+        <img className="tRow" src={m2} alt="PlaneOfWater"/>
         <img className="screenshots" src={m3} alt="PirateCove"/>
         <img className="screenshots" src={m4} alt="OrcMap"/>
         <img className="screenshots" src={m5} alt="BayIgh"/>

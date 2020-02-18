@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/space-towel/static/css/main.98ce62c0.chunk.css",
-    "main.js": "/space-towel/static/js/main.d7406e1e.chunk.js",
-    "main.js.map": "/space-towel/static/js/main.d7406e1e.chunk.js.map",
+    "main.js": "/space-towel/static/js/main.35e0f3f3.chunk.js",
+    "main.js.map": "/space-towel/static/js/main.35e0f3f3.chunk.js.map",
     "runtime-main.js": "/space-towel/static/js/runtime-main.cb9ca2d3.js",
     "runtime-main.js.map": "/space-towel/static/js/runtime-main.cb9ca2d3.js.map",
     "static/js/2.aff2c4e5.chunk.js": "/space-towel/static/js/2.aff2c4e5.chunk.js",
     "static/js/2.aff2c4e5.chunk.js.map": "/space-towel/static/js/2.aff2c4e5.chunk.js.map",
     "index.html": "/space-towel/index.html",
-    "precache-manifest.6213731d78477d6d8a542efea07d68b0.js": "/space-towel/precache-manifest.6213731d78477d6d8a542efea07d68b0.js",
+    "precache-manifest.20e5edcc5041c726391e492c6a9ac438.js": "/space-towel/precache-manifest.20e5edcc5041c726391e492c6a9ac438.js",
     "service-worker.js": "/space-towel/service-worker.js",
     "static/css/main.98ce62c0.chunk.css.map": "/space-towel/static/css/main.98ce62c0.chunk.css.map",
     "static/js/2.aff2c4e5.chunk.js.LICENSE": "/space-towel/static/js/2.aff2c4e5.chunk.js.LICENSE",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.cb9ca2d3.js",
     "static/js/2.aff2c4e5.chunk.js",
     "static/css/main.98ce62c0.chunk.css",
-    "static/js/main.d7406e1e.chunk.js"
+    "static/js/main.35e0f3f3.chunk.js"
   ]
 }

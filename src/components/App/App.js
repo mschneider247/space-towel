@@ -40,7 +40,6 @@ class App extends Component {
             <Nav />
           </section>
           <section>
-            {/* <Route exact path='/' render={() => <Bio />} /> */}
             <Route exact path='/space-towel' render={() => <Bio />} />
           </section>
           <section>

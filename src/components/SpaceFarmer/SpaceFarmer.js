@@ -43,7 +43,7 @@ const SpaceFarmer = () => {
         </a>
         <p>
           You are the Space Farmer! Login and start new proposals
-          for your space endevours. Choose between a myriad of different farming supplies to take with you on your adventure. Once you 've decided what supplies to take you are offered a range of destinations around the solar system. Depending on the destination you will have different rockets at your disposal. The application will take your choices and determine the total weights and costs for the trip and display these all in a final proposal overview. Too expensive? Create as many proposals as you like!
+          for your space endevours. Choose between a myriad of different farming supplies to take with you on your adventure. Once you've decided what supplies to take you are offered a range of destinations around the solar system. Depending on the destination you will have different rockets at your disposal. The application will take your choices and determine the total weights and costs for the trip and display these all in a final proposal overview. Too expensive? Create as many proposals as you like!
         </p>
       </div>
       <div className="project_images">

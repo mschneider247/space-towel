@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5653ae7641ead8ec5388bc758288c44",
+    "revision": "3acdf0fd0a441c704f4936a3fdbb0b18",
     "url": "/space-towel/index.html"
   },
   {

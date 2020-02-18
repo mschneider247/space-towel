@@ -15,10 +15,10 @@ const Header = () => {
         </div>
         <div className="title_div-social">
           <p>mschneider247@gmail.com</p>
-          <a href="https://github.com/mschneider247">
+          <a href="https://github.com/mschneider247" target="_blank" rel="noopener noreferrer">
             <img id="github" className="social_icon" src={gitHub} alt="GitHub"/>
           </a>
-          <a href="https://www.linkedin.com/in/mschneider247/">
+          <a href="https://www.linkedin.com/in/mschneider247/" target="_blank" rel="noopener noreferrer">
             <img id="linkedin" className="social_icon" src={linkedIn} alt="LinkedIn"/>
           </a>
           <Link to='/resume'>

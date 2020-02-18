@@ -30,12 +30,12 @@ const StarWars = () => {
         </ul>
       </div>
       <div className="btn_div">
-        <a href="https://mschneider247.github.io/swapi-trivia/#/">
+        <a href="https://mschneider247.github.io/swapi-trivia/#/" target="_blank" rel="noopener noreferrer">
           <button className="project_btn">
             Live Site
           </button>
         </a>
-        <a href="https://github.com/mschneider247/swapi-trivia">
+        <a href="https://github.com/mschneider247/swapi-trivia" target="_blank" rel="noopener noreferrer">
           <button className="project_btn">
             Github
           </button>

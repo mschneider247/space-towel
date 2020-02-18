@@ -10,4 +10,4 @@ const router = (
   </BrowserRouter>
 )
 
-ReactDOM.render(router, document.getElementById('root'));
+ReactDOM.render(router, document.getElementById('ROOT'));

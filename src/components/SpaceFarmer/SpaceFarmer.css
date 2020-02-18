@@ -9,15 +9,13 @@
 }
 
 .tRow {
-  height: 50%;
-  width: 44%;
+  height: 680px;
   padding: 0.6%;
   border-radius: 15px;
 }
 
 .bRow {
-  height: 26%;
-  width: 29%;
+  height: 420px;
   padding: 0.6%;
   border-radius: 15px;
 }

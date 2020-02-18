@@ -12,13 +12,13 @@ const Bio = () => {
         </div>
         <div className="about_div">
           <h3 id="about_me_header">About Me</h3>
-          <p id="about_me_text">My passion for games, graphic-design and customer relationships pair directly with front-end software development, where the user’s experience is paramount. I became interested in coding as a means to amplify the reach of my art work through website design and deployment. I’m excited to continue this work, reaching larger audiences and leaving a meaningful impact on their lives, whether through classic web apps, mobile or artificial and virtual realities.</p>
+          <p id="about_me_text">My passion for games, graphic-design and customer relationships pair directly with software development, where the user’s experience is paramount. I became interested in coding as a means to amplify the reach of my art work through website design and deployment. I’m excited to continue this work, reaching larger audiences and leaving a meaningful impact on their lives, whether through classic web apps, mobile or artificial and virtual realities.</p>
         </div>
       </div>
       <div className="bio_lists">
         <ul className="list">
           <h3>Looking For:</h3>
-          <li>Front End Web/Mobile/AR/VR Development</li>
+          <li>Web/Mobile/AR/VR Development</li>
           <li>Continued learning</li>
           <li>Diverse, skilled team of individuals</li>
           <li>Embrace of story telling</li>

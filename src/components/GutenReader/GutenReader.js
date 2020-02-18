@@ -29,12 +29,12 @@ const GutenReader = () => {
         </ul>
       </div>
       <div className="btn_div">
-        <a href="https://github.com/Guten-Reader/guten_reader_FE">
+        <a href="https://github.com/Guten-Reader/guten_reader_FE" target="_blank" rel="noopener noreferrer">
           <button className="project_btn">
             Github
           </button>
         </a>
-        <a href="https://www.youtube.com/watch?v=OcsrT65ifnE&feature=youtu.be%3Fvq%3Dhd1080">
+        <a href="https://www.youtube.com/watch?v=OcsrT65ifnE&feature=youtu.be%3Fvq%3Dhd1080" target="_blank" rel="noopener noreferrer">
           <button className="project_btn">
             YouTube Demo
           </button>

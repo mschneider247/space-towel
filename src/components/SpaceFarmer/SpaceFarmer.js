@@ -31,12 +31,12 @@ const SpaceFarmer = () => {
         </ul>
       </div>
       <div className="btn_div">
-        <a href="https://space-farmer.herokuapp.com/">
+        <a href="https://space-farmer.herokuapp.com/" target="_blank" rel="noopener noreferrer">
           <button className="project_btn">
             Live Site
           </button>
         </a>
-        <a href="https://github.com/mschneider247/space-farmer">
+        <a href="https://github.com/mschneider247/space-farmer" target="_blank" rel="noopener noreferrer">
           <button className="project_btn">
             Github
           </button>

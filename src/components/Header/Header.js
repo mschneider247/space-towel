@@ -22,7 +22,7 @@ const Header = () => {
             <img id="linkedin" className="social_icon" src={linkedIn} alt="LinkedIn"/>
           </a>
           <Link to='/resume'>
-            <p id="resume_link">Resume</p>
+            <p className="resume_link">Resume</p>
           </Link>
         </div>
       </section>

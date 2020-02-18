@@ -12,6 +12,9 @@ class Resume extends Component {
           <Link to="/space-towel/bio">
             <p id="resume_close">X</p>
           </Link>
+          <a className="resume_link" href="https://resume.creddle.io/embed/9ea9sgy60xm">
+            HTML link
+          </a>
         </div>
         <iframe id="resume" title="MichaelSchneiderResume" src="https://resume.creddle.io/embed/9ea9sgy60xm"
         width="850" height="1100" seamless></iframe>

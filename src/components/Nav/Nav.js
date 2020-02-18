@@ -60,7 +60,7 @@ class Nav extends Component {
         selected = 'selected'
       }
       let btnId = `btn${index + 1}`
-      let route = "/" + topic.value
+      let route = "/space-towel/" + topic.value
       return (
         <Link to={route} key={index + 1}>
           <button  

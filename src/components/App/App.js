@@ -43,11 +43,11 @@ class App extends Component {
             <Route exact path='/space-towel/' render={() => <Bio />} />
           </section>
           <section>
-            <Route path='/bio' render={() => <Bio />} />
-            <Route path='/spaceFarmer' render={() => <SpaceFarmer />} />
-            <Route path='/gutenReader' render={() => <GutenReader />} />
-            <Route path='/starWars' render={() => <StarWars />} />
-            <Route path='/maps' render={() => <Maps />} />
+            <Route path='/space-towel/bio' render={() => <Bio />} />
+            <Route path='/space-towel/spaceFarmer' render={() => <SpaceFarmer />} />
+            <Route path='/space-towel/gutenReader' render={() => <GutenReader />} />
+            <Route path='/space-towel/starWars' render={() => <StarWars />} />
+            <Route path='/space-towel/maps' render={() => <Maps />} />
           </section>
         </main>
       </section>

@@ -11,7 +11,7 @@ const Header = () => {
       <section className="title_section">
         <div className="title_div-titles">
           <h1 id="name">Michael Schneider</h1>
-          <h1 id="title">Front End Developer</h1>
+          <h1 id="title">Software Developer</h1>
         </div>
         <div className="title_div-social">
           <p>mschneider247@gmail.com</p>

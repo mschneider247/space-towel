@@ -13,7 +13,8 @@ class Resume extends Component {
             <p id="resume_close">X</p>
           </Link>
         </div>
-        <img id="resume" src={resume} alt="Michael Schneider Resume"/>
+        <iframe id="resume" title="MichaelSchneiderResume" src="https://resume.creddle.io/embed/9ea9sgy60xm"
+        width="850" height="1100" seamless></iframe>
       </section>
     )
   }

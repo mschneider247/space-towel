@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d21d5ded432f42f512514d1a40d0ac4b",
+    "revision": "96635e770d85fad0ae96bff7bb99c108",
     "url": "/space-towel/index.html"
   },
   {
-    "revision": "2043e95d9ae75fd1ae27",
-    "url": "/space-towel/static/css/main.e8b9a4c8.chunk.css"
+    "revision": "e3128d7c84e3b649e80d",
+    "url": "/space-towel/static/css/main.5bc2b2ea.chunk.css"
   },
   {
     "revision": "5a971e3a994be97f0471",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/space-towel/static/js/2.ee92db92.chunk.js.LICENSE"
   },
   {
-    "revision": "2043e95d9ae75fd1ae27",
-    "url": "/space-towel/static/js/main.22aa01b8.chunk.js"
+    "revision": "e3128d7c84e3b649e80d",
+    "url": "/space-towel/static/js/main.dec8bf8c.chunk.js"
   },
   {
     "revision": "94beb15fa0bf005c2308",
@@ -28,16 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/space-towel/static/media/BayIgh.90a3c368.jpg"
   },
   {
+    "revision": "ab46fcd4a91bd3332ccba675a4a4f45e",
+    "url": "/space-towel/static/media/GartPrison.ab46fcd4.jpg"
+  },
+  {
     "revision": "252fdca2f9a30967434bfd4a158c6bd1",
     "url": "/space-towel/static/media/MSchneiderPic.252fdca2.jpg"
   },
   {
     "revision": "896ce281a2f84dcbd75998e4c37035e2",
     "url": "/space-towel/static/media/MichaelSchneider.896ce281.jpg"
-  },
-  {
-    "revision": "ec31b36137f293fd4ed830e316d53f7c",
-    "url": "/space-towel/static/media/OrcMap.ec31b361.jpg"
   },
   {
     "revision": "ce7718771d0a91a1a17b74ebc341b555",
@@ -70,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1c5dca0b3d2f443edeced65bfcb11871",
     "url": "/space-towel/static/media/TuringQuest.1c5dca0b.jpg"
-  },
-  {
-    "revision": "fed9c945ab26c7f7669d82a943be4e85",
-    "url": "/space-towel/static/media/WorldMap.fed9c945.jpg"
   },
   {
     "revision": "c1711deb5eaedef64d4496843ac2ddcf",

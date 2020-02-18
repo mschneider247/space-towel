@@ -1,16 +1,11 @@
 .resume_section {
-  padding: 2% 20%;
+  padding: 14% 30%;
   display: flex;
-  top: -1px;
-  position: fixed;
+  top: -10px;
+  position: absolute;
   z-index: 1000;
   background-color: rgb(21, 21, 21);
-  height: 100%;
-}
-
-#resume {
-  width: 638px;
-  height: 825px;
+  height: 1200px;
 }
 
 #resume:hover {
@@ -19,7 +14,7 @@
 
 #resume_close {
   font-weight: 900;
-  font-size: 2em;
-  margin: 50px;
+  font-size: 3em;
+  margin: 50px 150px;
   color: #F46036;
 }

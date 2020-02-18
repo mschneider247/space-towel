@@ -9,7 +9,7 @@ class Resume extends Component {
     return (
       <section className="resume_section">
         <div>
-          <Link to="/bio">
+          <Link to="/space-towel/bio">
             <p id="resume_close">X</p>
           </Link>
         </div>

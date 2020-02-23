@@ -5,11 +5,15 @@
   position: absolute;
   z-index: 1000;
   background-color: rgb(21, 21, 21);
-  height: 1200px;
+  height: 225%;
+}
+
+#resume {
+  width: 850px;
 }
 
 #resume:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 #resume_close {

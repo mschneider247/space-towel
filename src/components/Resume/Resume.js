@@ -16,8 +16,7 @@ class Resume extends Component {
             HTML link
           </a>
         </div>
-        <iframe id="resume" title="MichaelSchneiderResume" src="https://resume.creddle.io/embed/9ea9sgy60xm"
-        width="850" height="1100" seamless></iframe>
+        <iframe id="resume" title="MichaelSchneiderResume" src="https://resume.creddle.io/embed/9ea9sgy60xm" seamless></iframe>
       </section>
     )
   }

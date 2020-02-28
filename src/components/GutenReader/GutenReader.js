@@ -18,13 +18,10 @@ const GutenReader = () => {
             Learn and test a new framework, React Native
           </li>
           <li>
-            Utilize different network requests like GET, POST, DELETE & PATCH
+            Utilize network requests using RESTful architecture
           </li>
           <li>
-            Learn how to work efficiently with a back-end team and their specialties
-          </li>
-          <li>
-            Follow a professional GitHub workflow.
+            Work efficiently with a back-end team, follow professional Github workflow
           </li>
         </ul>
       </div>

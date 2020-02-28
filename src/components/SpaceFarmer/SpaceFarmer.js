@@ -17,7 +17,7 @@ const SpaceFarmer = () => {
             Areas of Focus:
           </h3>
           <li>
-            Solo Project utlizing React, CSS3 and RESTful API
+            Solo Project utlizing React, Redux and CSS3
           </li>
           <li>
             Fetches rocket and payload data from an unofficial SpaceX API

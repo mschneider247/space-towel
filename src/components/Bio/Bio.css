@@ -80,4 +80,9 @@
   .bio_div {
     justify-content: center;
   }
+
+  .about_div,
+  .bio_lists {
+    margin: 3%;
+  }
 }

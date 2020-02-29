@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/space-towel/static/css/main.774ea394.chunk.css",
+    "main.css": "/space-towel/static/css/main.cb1c5ec0.chunk.css",
     "main.js": "/space-towel/static/js/main.b7b58f55.chunk.js",
     "main.js.map": "/space-towel/static/js/main.b7b58f55.chunk.js.map",
     "runtime-main.js": "/space-towel/static/js/runtime-main.cb9ca2d3.js",
@@ -8,9 +8,9 @@
     "static/js/2.aff2c4e5.chunk.js": "/space-towel/static/js/2.aff2c4e5.chunk.js",
     "static/js/2.aff2c4e5.chunk.js.map": "/space-towel/static/js/2.aff2c4e5.chunk.js.map",
     "index.html": "/space-towel/index.html",
-    "precache-manifest.38548f9f932b3f42af073a2c270d8ffe.js": "/space-towel/precache-manifest.38548f9f932b3f42af073a2c270d8ffe.js",
+    "precache-manifest.8a61652f7a075057c81daa19b0251106.js": "/space-towel/precache-manifest.8a61652f7a075057c81daa19b0251106.js",
     "service-worker.js": "/space-towel/service-worker.js",
-    "static/css/main.774ea394.chunk.css.map": "/space-towel/static/css/main.774ea394.chunk.css.map",
+    "static/css/main.cb1c5ec0.chunk.css.map": "/space-towel/static/css/main.cb1c5ec0.chunk.css.map",
     "static/js/2.aff2c4e5.chunk.js.LICENSE": "/space-towel/static/js/2.aff2c4e5.chunk.js.LICENSE",
     "static/media/BayIgh.jpg": "/space-towel/static/media/BayIgh.90a3c368.jpg",
     "static/media/GartPrison.jpg": "/space-towel/static/media/GartPrison.ab46fcd4.jpg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.cb9ca2d3.js",
     "static/js/2.aff2c4e5.chunk.js",
-    "static/css/main.774ea394.chunk.css",
+    "static/css/main.cb1c5ec0.chunk.css",
     "static/js/main.b7b58f55.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "467b800f3cd2dc395a83ef32ba64dc55",
+    "revision": "4eeccee151fda8744922932d3f8e75d6",
     "url": "/space-towel/index.html"
   },
   {
-    "revision": "ba4099edb2e66ced77c5",
-    "url": "/space-towel/static/css/main.cb1c5ec0.chunk.css"
+    "revision": "b8bb4f508d484e91a554",
+    "url": "/space-towel/static/css/main.a80cec27.chunk.css"
   },
   {
     "revision": "55d49771d6916c6e345e",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/space-towel/static/js/2.aff2c4e5.chunk.js.LICENSE"
   },
   {
-    "revision": "ba4099edb2e66ced77c5",
+    "revision": "b8bb4f508d484e91a554",
     "url": "/space-towel/static/js/main.41aa049c.chunk.js"
   },
   {

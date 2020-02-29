@@ -65,3 +65,18 @@
 ul {
   text-align: left;
 }
+
+@media screen and (max-width: 1220px) {
+  .project_section {
+    flex-direction: column;
+  }
+
+  .project_title {
+    margin: 1% 0 0 9%;
+  }
+  
+  .project_tech {
+    margin: 4% auto;
+    width: 80%;
+  }
+}

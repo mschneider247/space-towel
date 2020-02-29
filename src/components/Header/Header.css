@@ -56,3 +56,13 @@
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 850px) {
+  .title_section {
+    flex-direction: column;
+  }
+  .title_div-titles,
+  .title_div-social {
+    margin: 0;
+  } 
+}

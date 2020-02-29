@@ -44,14 +44,12 @@
 
 .bio_div-pic {
   width: 30%;
-  display: flex;
-  flex-wrap: wrap;
   margin: 6% auto 0 8%;
   min-width: 300px;
 }
 
 #about_me_text {
-  width: 80%;
+  width: 60%;
   margin: auto;
   font-size: 1.25em;
 }
@@ -61,7 +59,25 @@
 }
 
 .about_div {
-  margin-top: 30px;
   width: 50%;
   min-width: 400px;
+}
+
+@media screen and (max-width: 1050px) {
+  .bio_lists,
+  .bio_div {
+    width: 100%;
+    flex-direction: row;
+    margin: 1% 4%;
+  }
+}
+
+@media screen and (max-width: 1257px) {
+  .bio_div-pic {
+    margin: 2%;
+  }
+
+  .bio_div {
+    justify-content: center;
+  }
 }

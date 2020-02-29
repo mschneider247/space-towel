@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import './Resume.css'
-import resume from '../../images/MichaelSchneider.jpg'
 
 class Resume extends Component {
 

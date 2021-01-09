@@ -2,7 +2,7 @@
   margin-top: 2%;
   display: flex;
   flex-wrap: wrap;
-  border-radius: 30px;
+  border-radius: 1px;
 }
 
 .bio_div, .bio_lists {
@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   width: 24%;
-  border-radius: 20px;
+  border-radius: 1px;
   margin: 1% 3% 1% auto;
 }
 
@@ -38,7 +38,7 @@
 
 .bio_pic {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 1px;
   border: 1px solid #151515;
 }
 

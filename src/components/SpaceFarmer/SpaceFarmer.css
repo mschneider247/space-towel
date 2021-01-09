@@ -4,20 +4,20 @@
   padding: 2%;
   margin: 3%;
   background: rgba(83, 162, 190, 0.3);
-  border-radius: 30px;
+  border-radius: 1px;
   border: 1px solid #53A2BE;
 }
 
 .tRow {
   height: 680px;
   padding: 0.6%;
-  border-radius: 15px;
+  border-radius: 1px;
 }
 
 .bRow {
   height: 420px;
   padding: 0.6%;
-  border-radius: 15px;
+  border-radius: 1px;
 }
 
 .tRow:hover, .bRow:hover {

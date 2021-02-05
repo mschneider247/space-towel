@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/space-towel/static/css/main.1923e4af.chunk.css",
-    "main.js": "/space-towel/static/js/main.41aa049c.chunk.js",
-    "main.js.map": "/space-towel/static/js/main.41aa049c.chunk.js.map",
+    "main.css": "/space-towel/static/css/main.f62e1147.chunk.css",
+    "main.js": "/space-towel/static/js/main.52ec066f.chunk.js",
+    "main.js.map": "/space-towel/static/js/main.52ec066f.chunk.js.map",
     "runtime-main.js": "/space-towel/static/js/runtime-main.cb9ca2d3.js",
     "runtime-main.js.map": "/space-towel/static/js/runtime-main.cb9ca2d3.js.map",
     "static/js/2.aff2c4e5.chunk.js": "/space-towel/static/js/2.aff2c4e5.chunk.js",
     "static/js/2.aff2c4e5.chunk.js.map": "/space-towel/static/js/2.aff2c4e5.chunk.js.map",
     "index.html": "/space-towel/index.html",
-    "precache-manifest.f0eb03d4e458e1af5425d5bd7ed20e3a.js": "/space-towel/precache-manifest.f0eb03d4e458e1af5425d5bd7ed20e3a.js",
+    "precache-manifest.ee9bff13887db053f26947894e6aa760.js": "/space-towel/precache-manifest.ee9bff13887db053f26947894e6aa760.js",
     "service-worker.js": "/space-towel/service-worker.js",
-    "static/css/main.1923e4af.chunk.css.map": "/space-towel/static/css/main.1923e4af.chunk.css.map",
+    "static/css/main.f62e1147.chunk.css.map": "/space-towel/static/css/main.f62e1147.chunk.css.map",
     "static/js/2.aff2c4e5.chunk.js.LICENSE": "/space-towel/static/js/2.aff2c4e5.chunk.js.LICENSE",
     "static/media/BayIgh.jpg": "/space-towel/static/media/BayIgh.90a3c368.jpg",
     "static/media/GartPrison.jpg": "/space-towel/static/media/GartPrison.ab46fcd4.jpg",
-    "static/media/MSchneiderPic.jpg": "/space-towel/static/media/MSchneiderPic.252fdca2.jpg",
     "static/media/PirateCove.jpg": "/space-towel/static/media/PirateCove.ce771877.jpg",
     "static/media/PlaneOfWater.jpg": "/space-towel/static/media/PlaneOfWater.1561f3d4.jpg",
     "static/media/SF1.jpg": "/space-towel/static/media/SF1.15dc90e4.jpg",
@@ -24,6 +23,7 @@
     "static/media/SF5.jpg": "/space-towel/static/media/SF5.ca69e409.jpg",
     "static/media/TuringQuest.jpg": "/space-towel/static/media/TuringQuest.1c5dca0b.jpg",
     "static/media/github.png": "/space-towel/static/media/github.c1711deb.png",
+    "static/media/profile3.jpg": "/space-towel/static/media/profile3.36cc39db.jpg",
     "static/media/swapi_characters.png": "/space-towel/static/media/swapi_characters.75afa097.png",
     "static/media/swapi_favorites.png": "/space-towel/static/media/swapi_favorites.657d32a4.png",
     "static/media/swapi_form.png": "/space-towel/static/media/swapi_form.a17909ad.png",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.cb9ca2d3.js",
     "static/js/2.aff2c4e5.chunk.js",
-    "static/css/main.1923e4af.chunk.css",
-    "static/js/main.41aa049c.chunk.js"
+    "static/css/main.f62e1147.chunk.css",
+    "static/js/main.52ec066f.chunk.js"
   ]
 }

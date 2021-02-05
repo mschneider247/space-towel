@@ -5,5 +5,14 @@
 }
 
 .screenshots:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1000px) {
+  .screenshots {
+    width: 90%;
+    height: 100%;
+    margin: 1.5%;
+    border-radius: 1px;
+  }
 }

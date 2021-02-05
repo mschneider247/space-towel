@@ -21,7 +21,7 @@
 }
 
 .tRow:hover, .bRow:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .project_title {
@@ -78,5 +78,13 @@ ul {
   .project_tech {
     margin: 4% auto;
     width: 80%;
+  }
+
+  .tRow,
+  .bRow {
+    width: 90%;
+    height: 100%;
+    margin: 1.5%;
+    border-radius: 1px;
   }
 }

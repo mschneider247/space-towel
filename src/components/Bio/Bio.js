@@ -1,6 +1,6 @@
 import React from 'react';
 import './Bio.css'
-import bioPic from '../../images/MSchneiderPic.jpg'
+import bioPic from '../../images/profile3.jpg'
 
 const Bio = () => {
 

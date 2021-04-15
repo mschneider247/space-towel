@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/space-towel/static/css/main.f62e1147.chunk.css",
-    "main.js": "/space-towel/static/js/main.52ec066f.chunk.js",
-    "main.js.map": "/space-towel/static/js/main.52ec066f.chunk.js.map",
+    "main.js": "/space-towel/static/js/main.1ffa46fa.chunk.js",
+    "main.js.map": "/space-towel/static/js/main.1ffa46fa.chunk.js.map",
     "runtime-main.js": "/space-towel/static/js/runtime-main.cb9ca2d3.js",
     "runtime-main.js.map": "/space-towel/static/js/runtime-main.cb9ca2d3.js.map",
     "static/js/2.aff2c4e5.chunk.js": "/space-towel/static/js/2.aff2c4e5.chunk.js",
     "static/js/2.aff2c4e5.chunk.js.map": "/space-towel/static/js/2.aff2c4e5.chunk.js.map",
     "index.html": "/space-towel/index.html",
-    "precache-manifest.ee9bff13887db053f26947894e6aa760.js": "/space-towel/precache-manifest.ee9bff13887db053f26947894e6aa760.js",
+    "precache-manifest.84d2ee3ba3031385d79b882276868666.js": "/space-towel/precache-manifest.84d2ee3ba3031385d79b882276868666.js",
     "service-worker.js": "/space-towel/service-worker.js",
     "static/css/main.f62e1147.chunk.css.map": "/space-towel/static/css/main.f62e1147.chunk.css.map",
     "static/js/2.aff2c4e5.chunk.js.LICENSE": "/space-towel/static/js/2.aff2c4e5.chunk.js.LICENSE",
@@ -16,6 +16,7 @@
     "static/media/GartPrison.jpg": "/space-towel/static/media/GartPrison.ab46fcd4.jpg",
     "static/media/PirateCove.jpg": "/space-towel/static/media/PirateCove.ce771877.jpg",
     "static/media/PlaneOfWater.jpg": "/space-towel/static/media/PlaneOfWater.1561f3d4.jpg",
+    "static/media/ProfilePicMarch.jpg": "/space-towel/static/media/ProfilePicMarch.188cb213.jpg",
     "static/media/SF1.jpg": "/space-towel/static/media/SF1.15dc90e4.jpg",
     "static/media/SF2.jpg": "/space-towel/static/media/SF2.72075c8e.jpg",
     "static/media/SF3.jpg": "/space-towel/static/media/SF3.04cd9e74.jpg",
@@ -23,7 +24,6 @@
     "static/media/SF5.jpg": "/space-towel/static/media/SF5.ca69e409.jpg",
     "static/media/TuringQuest.jpg": "/space-towel/static/media/TuringQuest.1c5dca0b.jpg",
     "static/media/github.png": "/space-towel/static/media/github.c1711deb.png",
-    "static/media/profile3.jpg": "/space-towel/static/media/profile3.36cc39db.jpg",
     "static/media/swapi_characters.png": "/space-towel/static/media/swapi_characters.75afa097.png",
     "static/media/swapi_favorites.png": "/space-towel/static/media/swapi_favorites.657d32a4.png",
     "static/media/swapi_form.png": "/space-towel/static/media/swapi_form.a17909ad.png",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.cb9ca2d3.js",
     "static/js/2.aff2c4e5.chunk.js",
     "static/css/main.f62e1147.chunk.css",
-    "static/js/main.52ec066f.chunk.js"
+    "static/js/main.1ffa46fa.chunk.js"
   ]
 }
